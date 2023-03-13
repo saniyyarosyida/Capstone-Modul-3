@@ -1,4 +1,4 @@
-# Travel Insurance - Capstone Project 3
+# Travel Insurance Customer Classification - Capstone Project 3
 ##### Created by : Saniyya Hanan Rosyida (JCDSOL08)
 
 ## Business Problem Understanding
