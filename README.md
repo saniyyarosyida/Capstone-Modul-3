@@ -1,5 +1,5 @@
-Business Problem Understanding
-Context
+## Business Problem Understanding
+#### Context
 Travel insurance / asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama kita melakukan perjalanan baik ke dalam negeri maupun ke luar negeri. Beberapa perusahaan yang menyediakan jasa asuransi perjalanan diantaranya adalah Allianz, Lippo, Zurich, Simasnet, MNC, dan masih banyak lagi. Tidak sedikit orang yang menjadikan asuransi perjalanan sebagai teman perjalanan mereka, sebab manfaatnya yang dapat melindungi penggunanya (pemegang polis) dari berbagai risiko yang mungkin terjadi selama perjalanan. Mulai dari perlindungan dan evakuasi medis, penggantian atas kerusakan / kehilangan bagasi, perlindungan atas pembatalan perjalanan, hingga santunan kecelakaan, cacat permanen, dan kunjungan kematian.
 
 Kesepakatan bahwa Penyedia Asuransi bersedia menanggung risiko yang dimiliki oleh tertanggung dalam jangka waktu tertentu yang tertulis dalam polis asuransi. Untuk mendapatkan manfaat asuransi dari pihak penyedia, pemegang polis wajib membayar sejumlah biaya premi yang telah disepakati. Besarnya premi tergantung dari pertanggungan yang diinginkan, lama perjalanan, dan tujuan perjalanan.
