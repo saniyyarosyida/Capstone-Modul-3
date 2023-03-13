@@ -21,18 +21,13 @@ Selain itu, perusahaan juga ingin mengetahui karakter pemegang polis berdasarkan
 Analisis data akan dilakukan untuk menemukan perbedaan pola antara pemegang polis yang mengajukan klaim dan tidak mengajukan klaim, serta memperoleh insight tentang peluang klaim berdasarkan jenis produk asuransi yang dijual. Selanjutnya, kita akan membangun model yang diharapkan dapat membantu perusahaan memprediksi kemungkinan seorang calon pemegang polis akan mengajukan klaim atau tidak. Oleh karena itu, model yang akan dibuat adalah model klasifikasi. Pemodelan akan dilakukan menggunakan beberapa algoritma model klasifikasi seperti Logistic Regression, Desicion Tree, KNN, Random Forest, XGBoost dan LightGBM.
 
 Berikut beberapa kemungkinan yang dapat terjadi saat model mendefinisian status klaim pemegang polis :
-
-Metric
-
-TP : Jumlah pemegang polis yang memang benar melakukan klaim
-
-TN : Jumlah pemegang polis yang memang benar tidak melakukan klaim
-
-Type 1 error (FP) : Jumlah pemegang polis yang dinyatakan melakukan klaim padahal tidak melakukan klaim.
+- TP : Jumlah pemegang polis yang memang benar melakukan klaim
+- TN : Jumlah pemegang polis yang memang benar tidak melakukan klaim
+- Type 1 error (FP) : Jumlah pemegang polis yang dinyatakan melakukan klaim padahal tidak melakukan klaim.
 
 Konsekuensi : Dana asuransi dari hasil pencairan menjadi idle money (uang menganggur / tidak digunakan untuk apa pun dan tersimpan begitu saja tanpa tujuan yang jelas). Hal ini dapat menghambat pelaksanaan kegiatan lain dalam perusahaan yang juga membutuhkan dana serta terjadinya opportunity loss bagi perusahaan.
 
-Type 2 error (FN) : Jumlah pemegang polis yang dinyatakan tidak melakukan klaim padahal melakukan klaim
+- Type 2 error (FN) : Jumlah pemegang polis yang dinyatakan tidak melakukan klaim padahal melakukan klaim
 Konsekuensi : Kurangnya persiapan dana asuransi sehingga dapat menghambat proses klaim pemegang polis, akibatnya kualitas dan kapabilitas perusahaan akan dipertanyakan dan akan berdampak buruk pada penjualan produk di masa depan karena hilangnya kepercayaan masyarakat.
 
 Melihat resiko akibat kesalahan pendefinisian kelas positif dan negatif, maka model yang akan dibuat harus memperhatikan kedua kelas. Oleh karena itu, metric evaluation yang akan digunakan adalah ROC/AUC (Receiver Operating Characteristic) sebagai metric utama. Metric Accuracy tidak dipilih karena setelah diteliti, data merupakan data imbalance. Sebagai gantinya kita akan menggunakan metric balanced accuracy. Beberapa model akan diseleksi berdasarkan hasil evaluasi metriknya dan model dengan performa terbaik akan dipilih untuk dilanjutkan pada proses hyperparameter tuning dengan harapan dapat meningkatkan performa model.
