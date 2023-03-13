@@ -11,12 +11,13 @@ Perusahaan asuransi mendapatkan keuntungan melalui :
 Pembatalan polis, yang berarti risiko klaim akan hilang dan perusahaan dapat menyimpan semua premi yang telah dibayarkan
 Investasi premi di pasar finansial
 Tidak ada klaim hingga kontrak asuransi berakhir. Klaim adalah tuntutan yang diajukan oleh pemegang polis kepada perusahaan Asuransi untuk memenuhi haknya sesuai yang tertera dalam Polis dan hanya dapat dilakukan dalam jangka waktu tertentu tergantung dengan jenis produk asuransi yang dibeli atau ketentuan perusahaan. Contohnya asuransi perjalanan Zurich yang memberikan waktu untuk melakukan klaim maksimal 5x24 jam setelah terjadinya kerugian.
-Problem Statement & Goals
+
+#### Problem Statement & Goals
 Suatu perusahaan yang bergerak di bidang asuransi perjalanan ingin dapat melakukan perencanaan penyiapan dana untuk pertanggungan asuransi secara lebih terukur dengan memprediksi kemungkinan seorang pemegang polis akan mengajukan klaim asuransi atau tidak. Jika dana asuransi disiapkan dengan besaran yang tepat, perusahaan berharap kredibilitas perusahaan akan tetap terjaga karena lancarnya proses pertanggungan klaim dan resiko idle money akibat tidak ada/sedikitnya pemegang polis yang mengajukan klaim berkurang.
 
 Selain itu, perusahaan juga ingin mengetahui karakter pemegang polis berdasarkan status klaimnya dan jenis produk asuransi yang memiliki kemungkinan kecil untuk diklaim. Kedua hal ini akan bermanfaat dalam penentuan syarat dan ketentuan diterimanya polis seseorang / proses underwriting serta perencanaan penjualan produk yang lebih baik. Tim penjualan akan lebih mudah mencari pelanggan sesuai target dan karakteristik calon yang diinginkan dan keuntungan yang diperoleh perusahaan meningkat karena terminimalisirnya kemungkinan pemegang polis yang mengajukan klaim.
 
-Analytic Approach (Model & Metric Evaluation)
+#### Analytic Approach (Model & Metric Evaluation)
 Analisis data akan dilakukan untuk menemukan perbedaan pola antara pemegang polis yang mengajukan klaim dan tidak mengajukan klaim, serta memperoleh insight tentang peluang klaim berdasarkan jenis produk asuransi yang dijual. Selanjutnya, kita akan membangun model yang diharapkan dapat membantu perusahaan memprediksi kemungkinan seorang calon pemegang polis akan mengajukan klaim atau tidak. Oleh karena itu, model yang akan dibuat adalah model klasifikasi. Pemodelan akan dilakukan menggunakan beberapa algoritma model klasifikasi seperti Logistic Regression, Desicion Tree, KNN, Random Forest, XGBoost dan LightGBM.
 
 Berikut beberapa kemungkinan yang dapat terjadi saat model mendefinisian status klaim pemegang polis :
